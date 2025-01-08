@@ -1,46 +1,44 @@
-import React from 'react';
-
+import React from "react";
+import "./Header.css";
 function Header() {
   return (
-    <header className="navbar navbar-expand-lg navbar-sticky bg-body d-block z-fixed p-0">
-      <div className="container py-2 py-lg-3">
-        <div className="d-flex align-items-center gap-3">
-          <button
-            type="button"
-            className="navbar-toggler me-4 me-md-2"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <a className="navbar-brand fs-2 py-0 m-0 me-auto me-sm-n5" href="/">
-          <img src="/assets/logo/logo.png" className="logoHeader" alt="ECO-SHOP Logo" />
-          ECO-SHOP
-        </a>
-        <div className="d-flex align-items-center">
-          <button
-            type="button"
-            className="btn btn-icon btn-lg fs-xl btn-outline-secondary border-0 rounded-circle animate-shake d-lg-none"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#searchBox"
-            aria-controls="searchBox"
-            aria-label="Toggle search bar"
-          >
-            <i className="ci-search animate-target"></i>
-          </button>
-          <div className="user-container">
-            <a
-              className="btn btn-icon btn-lg fs-lg btn-outline-secondary border-0 rounded-circle animate-shake d-none d-md-inline-flex"
-              href="/sign-in"
-              id="user-icon"
+    <header
+      className=""
+      style={{ height: window.innerWidth <= 768 ? "150px":"300px", backgroundColor: "#001d4a" }}
+    >
+      <div className="row" style={{ height: "100%" }}>
+        <div className="Text-layout d-flex justify-content-center align-items-center col-5">
+          <div>
+            <div className="logo-layout d-flex flex-column justify-content-center align-items-center">
+              <div className="logo-container">
+                <img
+                  src="../../assets/logo/ava.png"
+                  alt=""
+                  style={{
+                    width: window.innerWidth <= 768 ? "60px" : "140px",
+                    height: "auto",
+                  }}
+                  className="fancy-logo"
+                />
+              </div>
+            </div>
+            <span
+              className="fancy-text"
+              style={{
+                fontSize: window.innerWidth <= 768 ?  "20px":"45px",
+                color: "white",
+              }}
             >
-              <i className="ci-user animate-target"></i>
-              <span className="visually-hidden">Account</span>
-            </a>
+              ECOCLO
+            </span>
           </div>
+        </div>
+
+        <div
+          className="col d-flex justify-content-center align-items-center"
+          style={{ height: "100%" }}
+        >
+          hãy làm giống tôi!
         </div>
       </div>
     </header>

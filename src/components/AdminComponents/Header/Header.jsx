@@ -4,8 +4,8 @@ const Header = ({ toggleSidebar }) => (
   <header id="header" className="header fixed-top d-flex align-items-center">
     <div className="d-flex align-items-center justify-content-between">
       <a href="/admin/index" className="logo d-flex align-items-center">
-        <img src="../../assets/logo/logo.png" alt="" />
-        <span className="d-none d-lg-block">ECOLO-Admin</span>
+        <img src="../../assets/logo/eco.png" alt="" />
+        <span className="d-none d-lg-block">ECOCLO-Admin</span>
       </a>
       <i className="bi bi-list toggle-sidebar-btn" onClick={toggleSidebar}></i>
     </div>

@@ -1,0 +1,7 @@
+.text-design {
+    font-family: 'Roboto', sans-serif; /* Có thể thay bằng phông chữ bạn muốn */
+    font-size: 25px; /* Kích thước chữ */
+    font-weight: 700; /* Chữ in đậm */
+    color: #C2986B; /* Màu nâu nhạt */
+    text-align: center; /* Căn giữa */
+  }

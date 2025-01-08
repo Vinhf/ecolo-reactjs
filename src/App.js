@@ -15,7 +15,7 @@ import Index from "./pages/AdminPage/index.jsx";
 import CatetogyTable from "./components/AdminComponents/Table/CatetogyTable.jsx";
 import AdminLayout from "./layout/admin/AdminLayout.jsx";
 import VoucherTable from "./components/AdminComponents/Table/VoucherTable.jsx";
-import Product from "./components/Customer/Product.jsx";
+import Product from "./components/Customer/Product/Product.jsx";
 
 function App() {
   return (
